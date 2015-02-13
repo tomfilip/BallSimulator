@@ -61,6 +61,8 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Common\Ball.cs" />
+    <Compile Include="Common\BallTable.cs" />
     <Compile Include="Common\Core\DrawDelegate.cs" />
     <Compile Include="Common\Core\GameTable.cs" />
     <Compile Include="Common\Core\ItemOutsideTableException.cs" />

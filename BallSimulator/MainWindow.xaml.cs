@@ -12,9 +12,10 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using TestS.Common.Core;
+using BallSimulator.Common;
+using BallSimulator.Common.Core;
 
-namespace TestS
+namespace BallSimulator
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -22,59 +23,18 @@ namespace TestS
     public partial class MainWindow : Window
     {
 
-        private GameTable Table { get; set; }
-        private TableItem Item { get; set; }
-        private int X { get; set; }
-        private int Y { get; set; }
+        private BallTable Table { get; set; }
+        private Ball Item { get; set; }
 
         public MainWindow()
         {
             InitializeComponent();
 
-            Table = new GameTable(new Point(0, 0), new Size(800, 620), Container);
-            TableItem item = new TableItem(new Point(50, 50), new Size(35, 35), rect, Table);
+            Table = new BallTable(new Point(0, 0), new Size(800, 620), Container);
+            Ball item = new Ball(new Point(50, 50), new Size(35, 35), rect, Table);
             Item = item;
             Table.ItemsDraw += (object sender, DrawEventArgs args) =>
             {
-                float damagaKoef = 0.7f;
-                float gravityAcceleration = 20f;
-                float weight = 20;
-                float floorTension = 0.95f;
-
-                var newX = item.Position.X + (X * args.Delta);
-                if (newX < 0)
-                { 
-                    newX = 0;
-                    X = (int)(X * -damagaKoef);
-                    Y = (int)(Y * floorTension);
-                }
-                else if (newX > Table.Size.Width - item.Size.Width)
-                { 
-                    newX = Table.Size.Width - item.Size.Width;
-                    X = (int)(X * -damagaKoef);
-                    Y = (int)(Y * floorTension);
-                }
-
-                var newY = item.Position.Y + (Y * args.Delta);
-                if (newY <= 0)
-                { 
-                    newY = 0;
-                    Y = (int)(Y * -damagaKoef);
-                    X = (int)(X * floorTension);
-                }
-                else if (newY >= Table.Size.Height - item.Size.Height - 2)
-                { 
-                    newY = Table.Size.Height - item.Size.Height;
-                    Y = (int)(Y * -damagaKoef);
-                    X = (int)(X * floorTension);
-                }
-                else
-                {
-                    Y = Y + (int)(weight / (gravityAcceleration * args.Delta));
-                }
-                
-                item.Position = new Point(newX, newY);
-                
                 lblFPS.Content = Math.Round(Table.FPS, 2);
             };
 
@@ -99,19 +59,19 @@ namespace TestS
 
                 if (e.Key == Key.Left)
                 {
-                    if (Item.Position.X > 0) { X -= koef; }
+                    if (Item.Position.X > 0) { Item.XVector -= koef; }
                 }
                 if (e.Key == Key.Right)
                 {
-                    if (X < (Table.Size.Width - 35)) { X += koef; }
+                    if (Item.XVector < (Table.Size.Width - 35)) { Item.XVector += koef; }
                 }
                 if (e.Key == Key.Up)
                 {
-                    if (Item.Position.X > 0) { Y -= koef; }
+                    if (Item.Position.X > 0) { Item.YVector -= koef; }
                 }
                 if (e.Key == Key.Down)
                 {
-                    if (Y < (Table.Size.Height - 35)) { Y += koef; }
+                    if (Item.YVector < (Table.Size.Height - 35)) { Item.YVector += koef; }
                 }
             }
         }

@@ -9,7 +9,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Threading;
 
-namespace TestS.Common.Core
+namespace BallSimulator.Common.Core
 {
     public class GameTable
     {
@@ -25,7 +25,7 @@ namespace TestS.Common.Core
             _running = true;
             Stopwatch sw = new Stopwatch();
 
-            int interval = 10;
+            int interval = 15;
             DispatcherTimer timer = new DispatcherTimer();
             timer.Tick += (object sender, EventArgs e) => 
             {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TestS.Common.Core
+namespace BallSimulator.Common.Core
 {
     public class ItemOutsideTableException: Exception
     {
