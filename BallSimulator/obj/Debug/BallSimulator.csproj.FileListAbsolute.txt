@@ -1,0 +1,13 @@
+C:\Users\tomas.filip\Documents\Visual Studio 2013\Projects\BallSimulator\BallSimulator\bin\Debug\TestS.exe.config
+C:\Users\tomas.filip\Documents\Visual Studio 2013\Projects\BallSimulator\BallSimulator\obj\Debug\TestS.exe
+C:\Users\tomas.filip\Documents\Visual Studio 2013\Projects\BallSimulator\BallSimulator\obj\Debug\TestS.pdb
+C:\Users\tomas.filip\Documents\Visual Studio 2013\Projects\BallSimulator\BallSimulator\bin\Debug\TestS.exe
+C:\Users\tomas.filip\Documents\Visual Studio 2013\Projects\BallSimulator\BallSimulator\bin\Debug\TestS.pdb
+C:\Users\tomas.filip\Documents\Visual Studio 2013\Projects\BallSimulator\BallSimulator\obj\Debug\BallSimulator.csprojResolveAssemblyReference.cache
+C:\Users\tomas.filip\Documents\Visual Studio 2013\Projects\BallSimulator\BallSimulator\obj\Debug\MainWindow.baml
+C:\Users\tomas.filip\Documents\Visual Studio 2013\Projects\BallSimulator\BallSimulator\obj\Debug\MainWindow.g.cs
+C:\Users\tomas.filip\Documents\Visual Studio 2013\Projects\BallSimulator\BallSimulator\obj\Debug\App.g.cs
+C:\Users\tomas.filip\Documents\Visual Studio 2013\Projects\BallSimulator\BallSimulator\obj\Debug\TestS_MarkupCompile.cache
+C:\Users\tomas.filip\Documents\Visual Studio 2013\Projects\BallSimulator\BallSimulator\obj\Debug\TestS.g.resources
+C:\Users\tomas.filip\Documents\Visual Studio 2013\Projects\BallSimulator\BallSimulator\obj\Debug\TestS.Properties.Resources.resources
+C:\Users\tomas.filip\Documents\Visual Studio 2013\Projects\BallSimulator\BallSimulator\obj\Debug\BallSimulator.csproj.GenerateResource.Cache

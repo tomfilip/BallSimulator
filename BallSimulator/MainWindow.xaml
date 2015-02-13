@@ -1,0 +1,21 @@
+﻿<Window x:Class="TestS.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="672.772" Width="967.059" KeyDown="Window_KeyDown">
+    <Grid>
+        
+        <Canvas Name="Container" Margin="0,0,109,0">
+            <Ellipse Name="rect" HorizontalAlignment="Left" VerticalAlignment="Top" Height="35" Width="35" >
+                <Ellipse.Fill>
+                    <RadialGradientBrush GradientOrigin="0.75,0.25">
+                        <GradientStop Color="Yellow" Offset="0.0" />
+                        <GradientStop Color="Orange" Offset="0.5" />
+                        <GradientStop Color="Red" Offset="1.0" />
+                    </RadialGradientBrush>
+                </Ellipse.Fill>
+            </Ellipse>
+            <Rectangle Stroke="Black"  Width="800" Height="620"></Rectangle>
+        </Canvas>
+        <Label Content="Label" Name="lblFPS" HorizontalAlignment="Left" Margin="809,10,0,0" VerticalAlignment="Top" Width="84"/>
+    </Grid>
+</Window>

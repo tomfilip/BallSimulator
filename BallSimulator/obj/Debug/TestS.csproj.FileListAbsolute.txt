@@ -1,0 +1,13 @@
+c:\users\tomas.filip\documents\visual studio 2013\Projects\TestS\TestS\bin\Debug\TestS.exe.config
+c:\users\tomas.filip\documents\visual studio 2013\Projects\TestS\TestS\bin\Debug\TestS.exe
+c:\users\tomas.filip\documents\visual studio 2013\Projects\TestS\TestS\bin\Debug\TestS.pdb
+c:\users\tomas.filip\documents\visual studio 2013\Projects\TestS\TestS\obj\Debug\TestS.csprojResolveAssemblyReference.cache
+c:\users\tomas.filip\documents\visual studio 2013\Projects\TestS\TestS\obj\Debug\MainWindow.baml
+c:\users\tomas.filip\documents\visual studio 2013\Projects\TestS\TestS\obj\Debug\MainWindow.g.cs
+c:\users\tomas.filip\documents\visual studio 2013\Projects\TestS\TestS\obj\Debug\App.g.cs
+c:\users\tomas.filip\documents\visual studio 2013\Projects\TestS\TestS\obj\Debug\TestS_MarkupCompile.cache
+c:\users\tomas.filip\documents\visual studio 2013\Projects\TestS\TestS\obj\Debug\TestS.g.resources
+c:\users\tomas.filip\documents\visual studio 2013\Projects\TestS\TestS\obj\Debug\TestS.Properties.Resources.resources
+c:\users\tomas.filip\documents\visual studio 2013\Projects\TestS\TestS\obj\Debug\TestS.csproj.GenerateResource.Cache
+c:\users\tomas.filip\documents\visual studio 2013\Projects\TestS\TestS\obj\Debug\TestS.exe
+c:\users\tomas.filip\documents\visual studio 2013\Projects\TestS\TestS\obj\Debug\TestS.pdb
